@@ -60,9 +60,16 @@ const config = {
     ],
   ],
 
+
   themeConfig:
+
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -89,15 +96,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/',
+          //     },
+          //   ],
+          // },
           {
             title: 'Socials',
             items: [
