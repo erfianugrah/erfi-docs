@@ -42,8 +42,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            'https://github.com/erfianugrah/erfi-docs/tree/master/',
         },
         blog: false,
         // {
@@ -72,26 +72,16 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/erfianugrah',
             label: 'GitHub',
-            position: 'right',
-          },
-          {
-            href: 'https://www.linkedin.com/in/erfianugrah/',
-            label: 'LinkedIn',
-            position: 'right',
-          },
-          {
-            href: 'https://erfianugrah.com/',
-            label: 'Personal',
             position: 'right',
           },
         ],
@@ -104,40 +94,44 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/',
+              },
+            ],
+          },
+          {
+            title: 'Socials',
+            items: [
+              {
+                label: 'Twitch',
+                href: 'https://www.twitch.tv/stoicopa',
+              },
+              {
+                label: 'Instagram',
+                href: 'https://www.instagram.com/stoicopa/',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/erfianugrah/',
+              },
+              {
+                label: 'Personal Website',
+                href: 'https://erfianugrah.com/',
               },
             ],
           },
           // {
-          //   title: 'Community',
+          //   title: 'More',
           //   items: [
+          //     // {
+          //     //   label: 'Blog',
+          //     //   to: '/blog',
+          //     // },
           //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
+          //       label: 'GitHub',
+          //       href: 'https://github.com/erfianugrah',
           //     },
           //   ],
           // },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/erfianugrah',
-              },
-            ],
-          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Erfi Anugrah`,
       },
