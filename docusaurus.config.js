@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Erfi\'s Docs',
   tagline: 'mlem mlem mlem',
-  favicon: 'img/Favicon.png',
+  favicon: 'img/actualfavicon.png',
 
   // Set the production url of your site here
   url: 'https://docs.erfianugrah.com',
@@ -69,7 +69,7 @@ const config = {
         title: 'Erfi\'s Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/Favicon.svg',
+          src: 'img/actualfavicon.png',
         },
         items: [
           // {
