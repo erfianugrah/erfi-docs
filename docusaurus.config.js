@@ -69,7 +69,7 @@ const config = {
         title: 'Erfi\'s Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/Favicon.svg',
         },
         items: [
           // {
