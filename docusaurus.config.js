@@ -71,7 +71,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/img679.jpg',
       navbar: {
         title: 'Erfi\'s Docs',
         logo: {
